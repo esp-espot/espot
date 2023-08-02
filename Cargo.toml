@@ -43,6 +43,8 @@ embuild = "0.31.2"
 ring = { path = "./3rdparty/ring" }
 signal-hook-registry = { path = "./3rdparty/signal-hook/signal-hook-registry" }
 socket2 = { path = "./3rdparty/socket2" }
+libmdns = { path = "./3rdparty/libmdns" }
+tempfile = { path = "./3rdparty/tempfile" }
 socket25 = { git = "https://github.com/rust-lang/socket2", package = "socket2" }
 mio = { git = "https://github.com/tokio-rs/mio" }
 tokio = { git = "https://github.com/tokio-rs/tokio" }
