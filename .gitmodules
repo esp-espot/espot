@@ -1,0 +1,6 @@
+[submodule "3rdparty/librespot"]
+	path = 3rdparty/librespot
+	url = https://github.com/esp-espot/librespot
+[submodule "3rdparty/ring"]
+	path = 3rdparty/ring
+	url = git@github.com:esp-espot/ring

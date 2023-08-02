@@ -34,5 +34,12 @@ esp-idf-hal = { version = "0.41", optional = true, default-features = false }
 esp-idf-svc = { version = "0.46", optional = true, default-features = false }
 embedded-svc = { version = "0.25", optional = true, default-features = false }
 
+librespot = { path = "./3rdparty/librespot" }
+
 [build-dependencies]
 embuild = "0.31.2"
+
+[patch.crates-io]
+ring = { path = "./3rdparty/ring" }
+socket2 = { git = "https://github.com/rust-lang/socket2", branch = "v0.4.x" }
+mio = { git = "https://github.com/tokio-rs/mio" }
