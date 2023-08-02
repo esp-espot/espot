@@ -4,3 +4,10 @@
 [submodule "3rdparty/ring"]
 	path = 3rdparty/ring
 	url = git@github.com:esp-espot/ring
+[submodule "3rdparty/signal-hook"]
+	path = 3rdparty/signal-hook
+	url = git@github.com:esp-espot/signal-hook.git
+[submodule "3rdparty/socket2"]
+	path = 3rdparty/socket2
+	url = git@github.com:esp-espot/socket2.git
+	branch = v0.4.x
