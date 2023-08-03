@@ -21,3 +21,7 @@
 	path = 3rdparty/tempfile
 	url = git@github.com:esp-espot/tempfile
 	branch = esp
+[submodule "3rdparty/hostname"]
+	path = 3rdparty/hostname
+	url = git@github.com:esp-espot/hostname.git
+	branch = esp

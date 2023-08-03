@@ -45,6 +45,7 @@ signal-hook-registry = { path = "./3rdparty/signal-hook/signal-hook-registry" }
 socket2 = { path = "./3rdparty/socket2" }
 libmdns = { path = "./3rdparty/libmdns" }
 tempfile = { path = "./3rdparty/tempfile" }
+hostname = { path = "./3rdparty/hostname" }
 socket25 = { git = "https://github.com/rust-lang/socket2", package = "socket2" }
 mio = { git = "https://github.com/tokio-rs/mio" }
 tokio = { git = "https://github.com/tokio-rs/tokio" }
